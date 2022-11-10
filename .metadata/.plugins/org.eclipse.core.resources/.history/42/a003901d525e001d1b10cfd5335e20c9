@@ -1,0 +1,8 @@
+Feature: To test Facebook
+
+Scenario: Login to Facebook
+
+Given: The Facebook website is launched
+When: Username and password are entered
+#And: Click on Login button
+Then: User is able to login to Facebook

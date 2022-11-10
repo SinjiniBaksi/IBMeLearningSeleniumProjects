@@ -1,0 +1,78 @@
+package stepDefinition;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import junit.framework.Assert;
+
+public class EditProfile {
+	
+	static WebDriver driver;
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+	
+	@Given("Website is launched")
+	public void website_is_launched() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\003Z5M744\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("http://elearningm1.upskills.in/");
+		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	}
+
+	@When("User clicks on Sign up button")
+	public void user_clicks_on_Sign_up_button() {
+	    driver.findElement(By.linkText("Sign up!")).click();
+	}
+
+	@Then("Registration page is opened")
+	public void registration_page_is_opened() {
+	    //System.out.println(driver.getTitle());
+	    Assert.assertEquals(driver.getTitle(), "elearning - elearning - Registration");
+	}
+	
+	@Given("Registration page is launched")
+	public void registration_page_is_launched() {
+	    Assert.assertEquals(driver.getCurrentUrl(), "http://elearningm1.upskills.in/main/auth/inscription.php");
+
+	}
+
+	@When("User fills up all the mandatory fields")
+	public void user_fills_up_all_the_mandatory_fields() {
+	    driver.findElement(By.name("firstname")).sendKeys("Hello7"); //first name
+	    driver.findElement(By.name("lastname")).sendKeys("World7"); //last name
+	    driver.findElement(By.name("email")).sendKeys("hello@world7.com"); //email
+	    driver.findElement(By.name("username")).sendKeys("hello_world7"); //username
+	    driver.findElement(By.name("pass1")).sendKeys("test@123"); //password
+	    driver.findElement(By.name("pass2")).sendKeys("test@123"); //confirm password
+
+	}
+	
+	@When("Click on Registration button")
+	public void click_on_Registration_button() {
+		driver.findElement(By.name("submit")).click(); //Register button
+	}
+
+	@Then("Registration successful and next button is displayed")
+	public void registration_successful_and_next_button_is_displayed() {
+	    System.out.println(driver.findElement(By.name("next")).isDisplayed());
+	}
+
+	@Given("After succussful registration Next button is visible")
+	public void after_succussful_registration_Next_button_is_visible() {
+	    Assert.assertEquals(driver.findElement(By.name("next")).isDisplayed(),true);
+	}
+
+	@When("Click on Next button")
+	public void click_on_Next_button() {
+		driver.findElement(By.name("next")).click();
+	}
+
+}

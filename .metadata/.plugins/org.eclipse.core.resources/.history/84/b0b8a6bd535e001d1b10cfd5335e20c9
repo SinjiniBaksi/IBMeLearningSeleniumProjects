@@ -1,0 +1,6 @@
+Feature: To test Googlee
+
+Scenario: To launch Googlee
+Given The Google website is launchedd
+When Search bar is visiblee
+Then Enter text Helloo

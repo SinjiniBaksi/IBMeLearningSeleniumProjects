@@ -1,0 +1,14 @@
+Feature: To test Facebook
+
+Scenario Outline: Login to Facebook
+
+#Scenario: Login to Facebook
+Given The Facebook website is launched
+When Username and password fields are visible
+Then Enter username "<username>" and password "<password>"
+
+Examples:
+| username | password |
+| test1    | pwd1     | 
+| test2    | pwd2     | 
+| test3    | pwd3     |

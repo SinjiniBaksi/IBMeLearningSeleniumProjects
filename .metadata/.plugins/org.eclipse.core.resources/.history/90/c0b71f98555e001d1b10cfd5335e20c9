@@ -1,0 +1,6 @@
+Feature: To test Facebook
+
+Scenario: Login to Facebook
+Given The Facebook website is launched
+When Username and password fields are visible
+Then Enter username and password

@@ -1,0 +1,26 @@
+Feature: Edit profile of registered user in http://elearningm1.upskills.in/
+
+Scenario: Launch Registration page
+Given Open website 'http://elearningm1.upskills.in/'
+When User clicks on Sign up button
+Then Registration page is opened
+
+Scenario: Next button is displayed after successful registration
+Given Registration page is launched
+When User fills up all the mandatory fields
+And Click on Registration button
+Then Registration successful and next button is displayed
+
+Scenario: Launch Edit Profile page
+Given After succussful registration Next button is visible
+When Click on Next button
+And Click on Homepage button
+Then Click on Edit Profile button
+And User is navigated to Edit Profile page
+
+Scenario: User is able to edit fields in Edit Profile page
+Given User is on Edit Profile page
+When User edits First name, Last name and Phone number
+And Click on Save settings button
+Then Profile changes are saved successfully 
+

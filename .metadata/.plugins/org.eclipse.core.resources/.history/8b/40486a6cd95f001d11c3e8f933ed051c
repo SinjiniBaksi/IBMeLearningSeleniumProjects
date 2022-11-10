@@ -1,0 +1,17 @@
+Feature: Launch website http://elearningm1.upskills.in/
+
+Scenario: Launch Registration page
+Given Website is launched
+When User clicks on Sign up button
+Then Registration page is opened
+
+Scenario: User Registration
+Given Registration page is launched
+When User fills up all the mandatory fields
+And Click on Registration button
+Then Registration successful and next button is displayed
+
+Scenario: Launch Homepage
+Given After succussful registration Next button is visible
+When Click on Next button
+Then User navigates to homepage

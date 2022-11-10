@@ -1,0 +1,13 @@
+package IBM_Training.SeleniumAssignment_Q1_9thNov;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

@@ -1,0 +1,6 @@
+Feature: To test Facebookk
+
+Scenario: To login to Facebookk
+Given The Facebook website is launchedd
+When Search bar is visiblee
+Then Enter text Helloo
