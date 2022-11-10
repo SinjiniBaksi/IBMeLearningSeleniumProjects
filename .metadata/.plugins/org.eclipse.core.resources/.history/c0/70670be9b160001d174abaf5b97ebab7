@@ -1,0 +1,25 @@
+Feature: Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html
+
+Scenario: Validate title of current page is Calorie Calculator
+Given Launch Calorie Calculator website
+When Title of page is not blank or empty
+Then Validate the title of current page
+
+Scenario Outline:  
+Given Title of current page is Calorie Calculator
+When Age field is visible
+Then Enter Age "<Age>"
+When Height field is visible
+Then Enter Height "<Height>"
+When Weight field is visible
+Then Enter Weight "<Weight>"
+And Click on Calculate button
+And BMI Result values are displayed
+
+Examples:
+|Age|Height|Weight|
+|10|127|40|
+|30|156|70|
+|25|152|55|
+|20|160|45|
+|35|160|70|

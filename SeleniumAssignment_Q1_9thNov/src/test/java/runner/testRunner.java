@@ -7,8 +7,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/java/features/EditProfile.feature"},
-		glue = {"stepDefinition"}
+		features = {"src/test/java/features/CalorieCalc.feature"},
+		glue = {"stepDefinition"},
+		tags = {"@Regression"}
 		)
 
 public class testRunner {

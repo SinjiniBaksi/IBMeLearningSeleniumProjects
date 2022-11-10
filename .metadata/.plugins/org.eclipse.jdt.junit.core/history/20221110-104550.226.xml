@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner (2)" project="SeleniumAssignment_Q1_9thNov" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.testRunner" time="11.994">
+    <testsuite name="Feature: Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html" time="11.994">
+      <testcase name="Validate title of current page is Calorie Calculator" classname="Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html" time="2.896"/>
+      <testcase name="EMPTY_NAME" classname="Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html" time="1.618"/>
+      <testcase name="EMPTY_NAME" classname="Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html" time="2.175"/>
+      <testcase name="EMPTY_NAME" classname="Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html" time="1.636"/>
+      <testcase name="EMPTY_NAME" classname="Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html" time="1.849"/>
+      <testcase name="EMPTY_NAME" classname="Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html" time="1.592"/>
+      <testcase name="Close browser" classname="Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html" time="0.218"/>
+    </testsuite>
+  </testsuite>
+</testrun>

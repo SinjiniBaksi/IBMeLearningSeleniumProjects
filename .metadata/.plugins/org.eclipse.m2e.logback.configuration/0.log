@@ -1357,3 +1357,60 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2022-11-10 03:18:45,859 [Worker-177: Launching FirstSeleniumScript] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\Project_2ndNov\src\main\resources
 2022-11-10 03:18:45,861 [Worker-177: Launching FirstSeleniumScript] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-10 03:18:45,861 [Worker-177: Launching FirstSeleniumScript] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\Project_2ndNov\src\test\resources
+2022-11-10 09:04:40,490 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-10 09:06:18,032 [Worker-15: Launching FirstSeleniumScript] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 09:06:18,035 [Worker-15: Launching FirstSeleniumScript] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\Project_2ndNov\src\main\resources
+2022-11-10 09:06:18,037 [Worker-15: Launching FirstSeleniumScript] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 09:06:18,037 [Worker-15: Launching FirstSeleniumScript] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\Project_2ndNov\src\test\resources
+2022-11-10 09:09:17,881 [Worker-21: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 09:09:17,882 [Worker-21: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 09:09:17,886 [Worker-21: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 09:09:17,886 [Worker-21: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 09:23:10,487 [Worker-24: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 09:23:10,488 [Worker-24: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 09:23:10,490 [Worker-24: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 09:23:10,490 [Worker-24: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:10:12,118 [Worker-30: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:10:12,118 [Worker-30: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:10:12,121 [Worker-30: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:10:12,122 [Worker-30: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:11:15,416 [Worker-32: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:11:15,417 [Worker-32: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:11:15,419 [Worker-32: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:11:15,419 [Worker-32: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:12:17,138 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:12:17,139 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:12:17,140 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:12:17,140 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:20:17,561 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:20:17,562 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:20:17,563 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:20:17,564 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:30:18,971 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:30:18,972 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:30:18,975 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:30:18,975 [Worker-34: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:31:57,718 [Worker-37: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:31:57,719 [Worker-37: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:31:57,722 [Worker-37: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:31:57,722 [Worker-37: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:41:55,127 [Worker-43: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:41:55,127 [Worker-43: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:41:55,129 [Worker-43: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:41:55,130 [Worker-43: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:43:42,697 [Worker-44: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:43:42,697 [Worker-44: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:43:42,699 [Worker-44: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:43:42,700 [Worker-44: Launching CalorieCalc.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:45:49,062 [Worker-44: Launching testRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:45:49,063 [Worker-44: Launching testRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:45:49,065 [Worker-44: Launching testRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:45:49,066 [Worker-44: Launching testRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:47:41,953 [Worker-45: Launching testRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:47:41,953 [Worker-45: Launching testRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\main\resources
+2022-11-10 10:47:41,956 [Worker-45: Launching testRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:47:41,957 [Worker-45: Launching testRunner (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_Q1_9thNov\src\test\resources
+2022-11-10 10:49:14,984 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:49:14,985 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_8thNov\src\main\resources
+2022-11-10 10:49:14,986 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-10 10:49:14,986 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\003Z5M744\Documents\Projects\SeleniumAssignment_8thNov\src\test\resources

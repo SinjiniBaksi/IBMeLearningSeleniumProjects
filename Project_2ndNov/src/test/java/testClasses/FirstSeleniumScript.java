@@ -19,12 +19,14 @@ public class FirstSeleniumScript {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.calculator.net/calorie-calculator.html");
-		WebElement calcBtn = driver.findElement(By.xpath("//input[@value='Calculate']//preceding-sibling::input[@name='printit']"));
+		WebElement calcBtn = driver.findElement(By.xpath("//input[@value='Calculate']"));
 //	    JavascriptExecutor js = (JavascriptExecutor)driver;
 //	    js.executeScript("arguments[0].click();", calcBtn);
 	    
-	    Actions action = new Actions(driver);
-	    action.click(calcBtn).perform();
+//	    Actions action = new Actions(driver);
+//	    action.click(calcBtn).perform();
+	    
+	    calcBtn.click();
 		
 //		driver.findElement(By.id("cage")).clear();
 //		driver.findElement(By.id("cheightmeter")).clear();

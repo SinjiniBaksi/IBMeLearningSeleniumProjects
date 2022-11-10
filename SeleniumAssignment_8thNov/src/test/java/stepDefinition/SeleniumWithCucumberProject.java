@@ -46,10 +46,10 @@ public class SeleniumWithCucumberProject {
 
 	@When("User fills up all the mandatory fields")
 	public void user_fills_up_all_the_mandatory_fields() {
-	    driver.findElement(By.name("firstname")).sendKeys("Hello7"); //first name
-	    driver.findElement(By.name("lastname")).sendKeys("World7"); //last name
-	    driver.findElement(By.name("email")).sendKeys("hello@world7.com"); //email
-	    driver.findElement(By.name("username")).sendKeys("hello_world7"); //username
+	    driver.findElement(By.name("firstname")).sendKeys("Hello15"); //first name
+	    driver.findElement(By.name("lastname")).sendKeys("World15"); //last name
+	    driver.findElement(By.name("email")).sendKeys("hello@world15.com"); //email
+	    driver.findElement(By.name("username")).sendKeys("hello_world15"); //username
 	    driver.findElement(By.name("pass1")).sendKeys("test@123"); //password
 	    driver.findElement(By.name("pass2")).sendKeys("test@123"); //confirm password
 

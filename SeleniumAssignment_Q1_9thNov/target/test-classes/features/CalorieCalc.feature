@@ -1,3 +1,4 @@
+@Regression
 Feature: Test Calorie Calculator Website https://www.calculator.net/calorie-calculator.html
 
 Scenario: Validate title of current page is Calorie Calculator
@@ -14,7 +15,7 @@ Then Enter Height "<Height>"
 When Weight field is visible
 Then Enter Weight "<Weight>"
 And Click on Calculate button
-#And BMI Result values are displayed
+And BMI Result values are displayed
 
 Examples:
 |Age|Height|Weight|
@@ -23,3 +24,8 @@ Examples:
 |25|152|55|
 |20|160|45|
 |35|160|70|
+
+Scenario: Close browser
+Given User is on Calorie Calculator page
+When User is on Results page
+Then Close the browser

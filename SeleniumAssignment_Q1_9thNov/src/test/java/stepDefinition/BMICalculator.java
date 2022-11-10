@@ -82,9 +82,48 @@ public class BMICalculator {
 
 	@Then("Click on Calculate button")
 	public void click_on_Calculate_button() {
-	    WebElement calcBtn = driver.findElement(By.xpath("//input[@value='Calculate']//preceding-sibling::input[@name='printit']"));
-	    JavascriptExecutor js = (JavascriptExecutor)driver;
-	    js.executeScript("arguments[0].click();", calcBtn);
+	    WebElement calcBtn = driver.findElement(By.xpath("//input[@value='Calculate']"));
+	    calcBtn.click();
+	}
+	
+	@Then("BMI Result values are displayed")
+	public void bmi_Result_values_are_displayed() {
+		String ageVal = driver.findElement(By.cssSelector("#cage")).getAttribute("value");
+		int age = Integer.parseInt(ageVal);
+	    if((age<15)||(age>80)) {
+	    	String ActualerrorMsg = driver.findElement(By.xpath("//div/font")).getText();
+	    	String expectedErrorMsg = "Please provide an age between 15 and 80.";
+	    	Assert.assertEquals(expectedErrorMsg, ActualerrorMsg);
+	    }
+	    else {
+	    	String maintainWeight = driver.findElement(By.xpath("//td[@class='result_box'][1]/div/b")).getText();
+	    	String Mildweightloss = driver.findElement(By.xpath("(//td[@class='result_box'])[2]/div/b")).getText();
+	    	String weightLoss = driver.findElement(By.xpath("(//td[@class='result_box'])[3]/div/b")).getText();
+	    	String extremeWeightLoss = driver.findElement(By.xpath("(//td[@class='result_box'])[4]/div/b")).getText();
+	    	
+	    	System.out.println("Maintain Weight value is "+maintainWeight+" Calories/day");
+	    	System.out.println("Mild Weight Loss value is "+Mildweightloss+" Calories/day");
+	    	System.out.println("Weight Loss value is "+weightLoss+" Calories/day");
+	    	System.out.println("Extreme Weight Loss value is "+extremeWeightLoss+" Calories/day");
+	    	System.out.println("****************************************************");
+
+	    }
+	    
+	}
+	
+	@Given("User is on Calorie Calculator page")
+	public void user_is_on_Calorie_Calculator_page() {
+	    Assert.assertEquals("Calorie Calculator", driver.getTitle());
+	}
+	
+	@When("User is on Results page")
+	public void user_is_on_Results_page() {
+	    Assert.assertEquals("Result",driver.findElement(By.cssSelector(".h2result")).getText());
+	}
+	
+	@Then("Close the browser")
+	public void close_the_browser() {
+	    driver.close();
 	}
 
 
